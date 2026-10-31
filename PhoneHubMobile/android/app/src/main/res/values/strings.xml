@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PhoneHubMobile</string>
+    <string name="accessibility_desc">Lets your paired laptop control this phone with its mouse and keyboard while mirroring. Taps, swipes and typing are injected only while PhoneHub is connected.</string>
+</resources>

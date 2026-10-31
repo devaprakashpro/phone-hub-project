@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  PhoneHub talks to the desktop over a plain ws:// WebSocket on the LAN / USB
+  loopback. Release builds disable cleartext by default (usesCleartextTraffic
+  =false), which silently blocked every connection. The scanned desktop IP is
+  dynamic (any private-LAN / Tailscale / 127.0.0.1 address), so we permit
+  cleartext for the app — there is no TLS endpoint to point at.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>
