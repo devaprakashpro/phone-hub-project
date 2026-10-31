@@ -1,0 +1,15 @@
+node_modules/
+build/
+dist/
+.gradle/
+android/app/build/
+*.apk
+*.aab
+__pycache__/
+*.pyc
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml
+local.properties
